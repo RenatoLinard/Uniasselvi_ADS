@@ -28,3 +28,28 @@ Apesar da existência de uma grande diversidade em termos de arquiteturas, pode-
 - **Dispositivos de Entrada e Saída (I/O):** Permitem a interação entre o computador e o mundo externo, possibilitando entrada e saída de dados. Exemplos incluem monitor, teclado, mouse e impressora.
 
 - **Barramentos:** Conectam todos os componentes e são vias de comunicação de alto desempenho, permitindo o tráfego de dados entre eles. Dividem-se em barramentos de dados, controles e endereços.
+
+Os usuários fornecem dados por meio de dispositivos de entrada, como teclado e mouse. Esses dados são processados pela CPU, que os busca na memória, executa as operações necessárias e envia os resultados para dispositivos de saída, como um monitor de vídeo, através dos barramentos apropriados. Esses componentes e a comunicação entre eles são essenciais para o funcionamento do computador conforme a arquitetura de Von Neumann.
+
+## CPU
+
+A Unidade Central de Processamento (CPU) é o componente central da arquitetura computacional, responsável por executar programas e controlar todos os dispositivos do computador. Trata-se de um circuito integrado que busca dados na memória, realiza procedimentos com esses dados e retorna os resultados para o usuário. Conhecida por siglas como CPU em inglês (Central Processing Unit) ou UCP em português (Unidade Central de Processamento), desempenha um papel fundamental na operação e funcionamento de um sistema computacional.o
+
+O processador é um componente vital do computador, evoluindo de múltiplos chips para um único microprocessador, permitindo a construção de computadores em uma única placa, conhecida como placa-mãe. Internamente, o processador é dividido em unidades funcionais:
+
+1. Unidade de Controle: Analisa e controla as instruções do programa, gerenciando a memória, ativando operações aritméticas e lógicas, e coordenando dispositivos de entrada/saída.
+
+2. Memória Cache: Armazena dados para processamento. Inicialmente na placa-mãe, agora integrada ao CPU para melhor desempenho.
+
+3. Registradores: Memória crucial na CPU, contendo instruções em execução.
+
+4. Unidade Aritmética e Lógica: Realiza operações matemáticas e lógicas.
+
+Essas unidades executam as atividades essenciais do ciclo de busca e execução:
+
+1. Buscar instrução na memória e carregá-la na CPU;
+2. Controlar o processo de busca e execução;
+3. Executar as instruções;
+4. Retornar resultados à memória principal.
+
+Essas operações envolvem dados e dispositivos externos à CPU, representados pelos demais elementos da arquitetura de Von Neumann.
